@@ -9,7 +9,8 @@ export default function WhyUs() {
           <div className="pt-6 pb-2 relative bg-orange-500 rounded-tl-xl rounded-tr-xl">
             <div className=""></div>
   
-            <h3 className="mb-4 font-semibold text-center">স্বাস্থ্যকর ও ঘন চুলকে হ্যাঁ বলুন</h3>
+            <h3 className="mb-4 text-2xl font-semibold text-center">স্বাস্থ্যকর ও ঘন চুলকে হ্যাঁ বলুন</h3>
+
             <div className="px-24 flex items-start justify-evenly gap-4">
               {WHY_US_CARDS.map(item => (
                 <WhyUsCard {...item} key={item.text} />
@@ -18,9 +19,10 @@ export default function WhyUs() {
           </div>
   
           {/* Bottom */}
-          <div className="pt-6 pb-2 relative bg-orange-200 text-orange-500 rounded-bl-xl rounded-br-xl">
-            <h3 className="mb-4 font-semibold text-center">কীভাবে দ্রুত আপনার চুলের পূর্বের সৌন্দর্য পুনরুদ্ধার করবেন?</h3>
-            <div className="flex items-start justify-evenly">
+          <div className="pt-6 pb-4 relative bg-orange-200 text-orange-500 rounded-bl-xl rounded-br-xl">
+            <h3 className="mb-4 text-2xl font-semibold text-center">কীভাবে দ্রুত আপনার চুলের পূর্বের সৌন্দর্য পুনরুদ্ধার করবেন?</h3>
+
+            <div className="px-8 flex items-start justify-evenly">
               <WhyUsCard src="/step1.png" text="4 সপ্তাহের একটি সম্পূর্ণ কোর্স" key={0} />
               <div className="self-center text-6xl font-bold">...</div>
               <WhyUsCard src="/step2.png" text="আপনি সহজেই এই শ্যাম্পুটি পুরো এক মাস ব্যবহার করতে পারেন" key={1} />

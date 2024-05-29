@@ -4,10 +4,10 @@ import { Clock } from "../common";
 export default function Hero() {
     return (
       <section className="">
-        <div className="pt-10 holder flex justify-center gap-4">
+        <div className="pt-10 holder flex justify-between gap-4">
           {/* Image Section */}
           <div className="flex items-end gap-4">
-            <div className="w-[15rem] h-[20rem]">
+            <div className="h-[20rem]">
               <Image className="w-full h-full object-container" src="/woman-2.png" width="200" height="250" alt="model" />
             </div>
   
@@ -21,9 +21,12 @@ export default function Hero() {
           <div className="flex flex-col items-center justify-center gap-4">
             <del className="text-sm font-semibold">পুরাতন মূল্য 4998 BDT</del>               
   
-            <div className="px-4 py-2 bg-orange-500">2,499 BDT</div>
+            {/* Card Rate */}
+            <div className="px-4 py-3 bg-orange-500">
+              <span className="text-2xl font-bold">2,499 BDT</span>
+            </div>
   
-            <h3 className="font-semibold">অফারে 5টি প্যাক স্টকের বাকি আছে</h3>
+            <h3 className="text-xl font-semibold">অফারে 5টি প্যাক স্টকের বাকি আছে</h3>
             <span className="text-sm text-gray-300">অফারটি শেষ হবে</span>
   
             <Clock />

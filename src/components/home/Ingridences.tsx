@@ -4,7 +4,7 @@ export default function Ingridences() {
     return (
       <section className="">
         <div className="py-10 holder">
-          <h3 className="mb-4 mx-auto text-center">"বিশেষজ্ঞরা হাজার হাজার সংমিশ্রণ নিয়ে গবেষণা করেছেন যা ট্রাইকো - প্রাইম ফর্মুলা ক্যাফেইন, মেন্থল এবং স পালমেটো তৈরি করতে চুলের বৃদ্ধিকে উদ্দীপিত করে। চিকিৎসাগতভাবে প্রমাণিত: Hair Surge Shampoo-এর সক্রিয় উপাদান ব্যবহারের প্রথম কয়েক দিনের মধ্যে কাজ করে:"</h3>
+          <h3 className="mb-8 mx-auto text-xl text-center">"বিশেষজ্ঞরা হাজার হাজার সংমিশ্রণ নিয়ে গবেষণা করেছেন যা ট্রাইকো - প্রাইম ফর্মুলা ক্যাফেইন, মেন্থল এবং স পালমেটো তৈরি করতে চুলের বৃদ্ধিকে উদ্দীপিত করে। চিকিৎসাগতভাবে প্রমাণিত: Hair Surge Shampoo-এর সক্রিয় উপাদান ব্যবহারের প্রথম কয়েক দিনের মধ্যে কাজ করে:"</h3>
   
           <div className="flex flex-wrap justify-around gap-8">
             {INGREDENCES.map(item => (

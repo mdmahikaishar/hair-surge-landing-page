@@ -3,7 +3,7 @@ import { FAQS } from "@/constances";
 export default function Faq() {
     return (
       <section className="">
-        <div className="px-8 py-6 holder bg-orange-300 text-black rounded-xl">
+        <div className="px-8 py-10 holder bg-orange-300 text-black rounded-xl">
           <div className="w-3/5 flex flex-col gap-4">
             {FAQS.map(item => (
               <div className="flex items-start gap-2" key={item}>

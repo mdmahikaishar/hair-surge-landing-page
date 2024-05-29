@@ -23,8 +23,8 @@ export default function HairTips() {
   function HairTipsCard(props: { index: number, text: string }) {
     return (
       <div className="w-48">
-        <div className="mb-4 mx-auto w-16 h-16 grid place-items-center bg-orange-500 text-3xl text-white font-bold rounded-full">{props.index}</div>
-        <p className="text-center text-sm">{props.text}</p>
+        <div className="mb-4 mx-auto w-16 h-16 grid place-items-center bg-red-500 text-3xl text-white font-bold rounded-full">{props.index}</div>
+        <p className="text-center font-bold text-sm">{props.text}</p>
       </div>
     )
   }
