@@ -1,4 +1,4 @@
-import { Contact, ExtraUs, Faq, Footer, Formula, HairTips, Hero, Ingridences, Offer, OrderNow, Testimonial, WhyUs } from "@/components/home";
+import { Contact, ExtraUs, Faq, Footer, Formula, HairTips, Hero, Ingridences, Offer, OrderNow, Testimonial, WhyUs } from "../components/home";
 
 export default function Home() {
   return (

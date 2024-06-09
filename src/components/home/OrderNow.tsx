@@ -1,9 +1,10 @@
+import { NEW_PRICE } from "../../constances";
 import { Clock } from "../common";
 import { InputWrapper } from "../ui/Input";
 
 export default function OrderNow() {
     return (
-      <section className="">
+      <section className="" id="order-now-section">
         <div className="holder flex flex-col md:flex-row  bg-no-repeat bg-cover bg-right bg-[rgb(36,16,12)] text-white rounded-xl border-2 border-white" style={{ backgroundImage: "url('/form_bg.png')" }}>
           <div className="md:w-4/5 px-8 py-6 ">
             <div className="mb-8">
@@ -26,7 +27,7 @@ export default function OrderNow() {
                   </InputWrapper>
     
                   <div className="">
-                    <span className="font-bold text-sm">মূল্য: 2499 BDT</span>
+                    <span className="font-bold text-sm">মূল্য: {NEW_PRICE}</span>
                   </div> 
     
                   <button className="w-full px-4 py-2 btn">অর্ডার করুন</button>          

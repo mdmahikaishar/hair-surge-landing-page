@@ -1,5 +1,7 @@
 import Image from "next/image"
 
+import { NEW_PRICE, OLD_PRICE } from "../../constances";
+
 export default function Offer() {
     return (
       <section className="">
@@ -14,16 +16,16 @@ export default function Offer() {
   
           <span className="font-bold text-2xl">অফার!</span>
   
-          <div className="w-36 h-20 bg-contain bg-no-repeat grid place-items-center font-bold text-2xl" style={{ backgroundImage: "url('/new_prc_bg.png')" }}>2499 BDT</div>
+          <div className="w-36 h-20 bg-contain bg-no-repeat grid place-items-center font-bold text-2xl" style={{ backgroundImage: "url('/new_prc_bg.png')" }}>{NEW_PRICE}</div>
   
           <div className="flex flex-col font-bold text-xl">
             <span>পুরাতন মূল্য:</span>
-            <del>4998 BDT</del>
+            <del>{OLD_PRICE}</del>
           </div>
   
-          <button className="px-4 py-2 text-2xl btn">
+          <a className="px-4 py-2 text-2xl btn" href="#order-now-section">
             অর্ডার করুন
-          </button>
+          </a>
         </div>
       </section>
     )

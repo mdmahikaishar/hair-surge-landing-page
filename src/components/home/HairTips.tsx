@@ -1,4 +1,4 @@
-import { HAIR_TIPS } from "@/constances"
+import { HAIR_TIPS } from "../../constances"
 
 export default function HairTips() {
     return (

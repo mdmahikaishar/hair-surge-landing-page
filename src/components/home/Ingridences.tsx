@@ -1,4 +1,4 @@
-import { INGREDENCES } from "@/constances"
+import { INGREDENCES } from "../../constances"
 import Image from "next/image";
 import { CheckIcon } from "../common";
 

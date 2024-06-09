@@ -1,4 +1,4 @@
-import { WHY_US_CARDS } from "@/constances"
+import { WHY_US_CARDS } from "../../constances"
 import Image from "next/image"
 
 export default function WhyUs() {
@@ -22,7 +22,7 @@ export default function WhyUs() {
   
           {/* Bottom */}
           <div
-            className="pt-6 pb-6 relative text-orange-500 rounded-bl-xl rounded-br-xl"
+            className="pt-6 pb-6 relative bg-cover text-orange-500 rounded-bl-xl rounded-br-xl"
             style={{ backgroundImage: "url('/health_bg.png')" }}          
           >
             <h3 className="mb-4 px-4 text-2xl font-semibold text-center">কীভাবে দ্রুত আপনার চুলের পূর্বের সৌন্দর্য পুনরুদ্ধার করবেন?</h3>

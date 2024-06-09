@@ -1,6 +1,7 @@
 {
-  "name": "hair-surge",
-  "version": "0.1.0",
+  "name": "hair-surge-landing-page",
+  "author": "mdmahikaishar <mahikaishar@gmail.com>",
+  "version": "0.2.0",
   "private": true,
   "scripts": {
     "dev": "next dev",

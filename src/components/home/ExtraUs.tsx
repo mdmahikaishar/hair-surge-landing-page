@@ -1,4 +1,4 @@
-import { EXTRA_US } from "@/constances"
+import { EXTRA_US } from "../../constances"
 import Image from "next/image"
 import { CheckIcon } from "../common"
 
